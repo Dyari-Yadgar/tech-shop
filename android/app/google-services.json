@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "705213262722",
+    "project_id": "tech-shop-3c42a",
+    "storage_bucket": "tech-shop-3c42a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705213262722:android:46147b443424ba0d9c7d9b",
+        "android_client_info": {
+          "package_name": "com.example.tech_shop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEUfC65D7uZIk6zLtvMjFPVcaSSDNol2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
