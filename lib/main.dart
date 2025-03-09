@@ -11,7 +11,7 @@ import 'firebase_options.dart';
 
 
 
-// gorakari
+
 
 
 Future<void> main() async {
@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Tech shop',
+      title: 'Tech Shop',
       theme: ThemeData(
         fontFamily: 'kurdish',
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
