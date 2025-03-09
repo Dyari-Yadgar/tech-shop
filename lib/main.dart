@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Tech Shop',
+      title: 'dyari',
       theme: ThemeData(
         fontFamily: 'kurdish',
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
