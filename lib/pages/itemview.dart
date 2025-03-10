@@ -8,7 +8,6 @@ import 'package:tech_shop/model/itemmodel.dart';
 import 'package:tech_shop/pages/buy.dart';
 import 'package:tech_shop/WidgetStyle.dart';
 
-
 class ItemView extends StatefulWidget {
   final itemModel item;
   const ItemView({super.key, required this.item});
@@ -21,15 +20,15 @@ class _ItemViewState extends State<ItemView> {
   int numberOfItem = 1;
   @override
   void initState() {
-
     super.initState();
     isfavorite = ItemData.checkItemFavorite(widget.item);
-    ItemData.buyData.forEach((element) {
-      if (element.name == widget.item.name && element.price== widget.item.price
-      && element.sharika == widget.item.sharika) {
+    for (var element in ItemData.buyData) {
+      if (element.name == widget.item.name &&
+          element.price == widget.item.price &&
+          element.sharika == widget.item.sharika) {
         numberOfItem = element.numberOfItem;
       }
-    });
+    }
   }
 
   @override
@@ -98,7 +97,6 @@ class _ItemViewState extends State<ItemView> {
           Container(
             height: 40,
             width: 140,
-
             decoration: BoxDecoration(
                 color: const Color(0xffE7E7E7),
                 borderRadius: BorderRadius.circular(15)),
@@ -140,49 +138,52 @@ class _ItemViewState extends State<ItemView> {
             children: [
               Row(
                 children: [
-                  Text('${widget.item.price}', style: const TextStyle(fontSize: 18)),
-          const SizedBox(
-            width: 5,
-          ),
-          Container(
-            padding: const EdgeInsets.all(1),
-            decoration: BoxDecoration(
-                gradient: LinearGradient(
-                    colors: [WidgetStyle.second, WidgetStyle.primary],
-                    begin: Alignment.topCenter,
-                    end: Alignment.bottomCenter),
-                borderRadius: BorderRadius.circular(7)),
-            child: Icon(
-              Icons.attach_money_rounded,
-              color: WidgetStyle.white,
-            ),
-          ),
+                  Text('${widget.item.price}',
+                      style: const TextStyle(fontSize: 18)),
+                  const SizedBox(
+                    width: 5,
+                  ),
+                  Container(
+                    padding: const EdgeInsets.all(1),
+                    decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                            colors: [WidgetStyle.second, WidgetStyle.primary],
+                            begin: Alignment.topCenter,
+                            end: Alignment.bottomCenter),
+                        borderRadius: BorderRadius.circular(7)),
+                    child: Icon(
+                      Icons.attach_money_rounded,
+                      color: WidgetStyle.white,
+                    ),
+                  ),
                 ],
               ),
-              SizedBox(height: 5,),
+              SizedBox(
+                height: 5,
+              ),
               Row(
                 children: [
-                  Text('${widget.item.price*numberOfItem}\$', style: const TextStyle(fontSize: 18)),
-          const SizedBox(
-            width: 5,
-          ),
-          Container(
-            padding: const EdgeInsets.all(1),
-            decoration: BoxDecoration(
-                gradient: LinearGradient(
-                    colors: [WidgetStyle.second, WidgetStyle.primary],
-                    begin: Alignment.topCenter,
-                    end: Alignment.bottomCenter),
-                borderRadius: BorderRadius.circular(7)),
-            child: Icon(
-              Icons.money_rounded,
-              color: WidgetStyle.white,
-            ),
-          ),
+                  Text('${widget.item.price * numberOfItem}\$',
+                      style: const TextStyle(fontSize: 18)),
+                  const SizedBox(
+                    width: 5,
+                  ),
+                  Container(
+                    padding: const EdgeInsets.all(1),
+                    decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                            colors: [WidgetStyle.second, WidgetStyle.primary],
+                            begin: Alignment.topCenter,
+                            end: Alignment.bottomCenter),
+                        borderRadius: BorderRadius.circular(7)),
+                    child: Icon(
+                      Icons.money_rounded,
+                      color: WidgetStyle.white,
+                    ),
+                  ),
                 ],
               )
             ],
-
           ),
           const SizedBox(
             width: 35,
@@ -305,13 +306,11 @@ class _ItemViewState extends State<ItemView> {
                 ))
           ],
         ),
-        
+
         const SizedBox(
           height: 20,
         )
       ],
-    )
-    )
-    );
+    )));
   }
 }

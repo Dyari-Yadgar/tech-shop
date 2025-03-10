@@ -22,20 +22,6 @@ class _checkOutState extends State<checkOut> {
       },
       child: SafeArea(
           child: Scaffold(
-        appBar: AppBar(
-          automaticallyImplyLeading: false,
-          title: const Text(
-            'Tech Shop',
-            style: TextStyle(
-              color: Colors.white,
-            ),
-          ),
-          centerTitle: true,
-          backgroundColor: WidgetStyle.primary,
-          // border radius la appbar
-          shape: const RoundedRectangleBorder(
-              borderRadius: BorderRadius.vertical(bottom: Radius.circular(35))),
-        ),
         body: ItemData.buyData.isEmpty
             ? Center(
                 child: Text('No Any Data'),
@@ -178,10 +164,9 @@ class _checkOutState extends State<checkOut> {
 
   int koygshtenrx() {
     int all = 0;
-    ItemData.buyData.forEach((element) {
+    for (var element in ItemData.buyData) {
       all += (element.numberOfItem * element.price);
-    });
+    }
     return all;
   }
-  
 }

@@ -128,7 +128,7 @@ class _ProfileState extends State<Profile> {
           ),
           Container(
               width: size.width,
-              height: size.height * 0.3,
+              height: size.height * 0.456,
               decoration: BoxDecoration(
                   color: WidgetStyle.primary,
                   borderRadius:
@@ -141,58 +141,79 @@ class _ProfileState extends State<Profile> {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        
-                      ],
-                    ),
-
-
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
+                        Expanded(child: SizedBox()),
+                        SizedBox(
+                          height: 30,
+                          width: 30,
+                        ),
                         Text(
                           'info',
                           style: TextStyle(color: Colors.white, fontSize: 35),
                         ),
-                        SizedBox(
-                          height: 50,
-                        ),
-                        Flexible(
-                            child: TextFormField(
-                          style: TextStyle(color: Colors.white, fontSize: 20),
-                          controller: UsernameController,
-                        )),
-                        SizedBox(
-                          height: 20,
-                          width: 20,
-                        ),
                         Expanded(child: SizedBox()),
                         SizedBox(
-                          height: 20,
-                          width: 20,
-                          child: Icon(
-                            Icons.edit,
-                            color: Colors.white,
-                            size: 35,
-                          ),
-                        ),
+                            height: 30,
+                            width: 30,
+                            child: IconButton(
+                              onPressed: () {
+                                setState(() {
+                                  isEdit = !true;
+                                });
+                              },
+                              icon: Icon(
+                                Icons.edit,
+                                color: Colors.white,
+                                size: 35,
+                              ),
+                            )),
                       ],
                     ),
                     SizedBox(
                       height: 10,
                     ),
-                    Text(
-                      'Account name : $userName',
-                      textDirection: TextDirection.rtl,
-                      style: TextStyle(color: Colors.white, fontSize: 20),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.end,
+                      children: [
+                        Text(
+                          ' : Account name  $userName',
+                          textDirection: TextDirection.rtl,
+                          style: TextStyle(color: Colors.white, fontSize: 20),
+                        ),
+                        Expanded(
+                            child: TextFormField(
+                          enabled: isEdit,
+                          style: TextStyle(color: Colors.white, fontSize: 20),
+                          controller: UsernameController,
+                        )),
+                      ],
                     ),
-                    Text(
-                      'Email: $email',
-                      textDirection: TextDirection.rtl,
-                      style: TextStyle(color: Colors.white, fontSize: 20),
-                    )
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.end,
+                      children: [
+                        Text(
+                          ' : Email ',
+                          textDirection: TextDirection.rtl,
+                          style: TextStyle(color: Colors.white, fontSize: 20),
+                        ),
+                        Expanded(
+                            child: TextFormField(
+                          enabled: isEdit,
+                          style: TextStyle(color: Colors.white, fontSize: 20),
+                          controller: emailController,
+                        )),
+                      ],
+                    ),
                   ],
                 ),
-              ))
+              )),
+          Visibility(
+            child: TextButton(
+              style:
+                  ElevatedButton.styleFrom(backgroundColor: WidgetStyle.white),
+              onPressed: () {},
+              child: Text('press'),
+            ),
+          )
         ],
       ),
     ));

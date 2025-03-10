@@ -5,7 +5,6 @@ import 'package:tech_shop/model/itemmodel.dart';
 import 'package:tech_shop/pages/itemview.dart';
 import 'package:tech_shop/WidgetStyle.dart';
 
-
 class favorite extends StatefulWidget {
   const favorite({super.key});
 
@@ -20,18 +19,6 @@ class _favoriteState extends State<favorite> {
 
     return SafeArea(
         child: Scaffold(
-      appBar: AppBar(
-        centerTitle: true,
-        title: Text(
-          'Tech Shop',
-          style: TextStyle(
-            color: WidgetStyle.white,
-          ),
-        ),
-        backgroundColor: WidgetStyle.primary,
-        shape: const RoundedRectangleBorder(
-            borderRadius: BorderRadius.vertical(bottom: Radius.circular(20))),
-      ),
       body: Padding(
         padding: const EdgeInsets.only(bottom: 5, left: 10, right: 10, top: 20),
         child: ItemData.favorites.isNotEmpty
@@ -66,7 +53,8 @@ class _favoriteState extends State<favorite> {
                 width: size.width * 0.4,
                 height: 130,
                 child: ClipRRect(
-                  borderRadius: const BorderRadius.horizontal(left: Radius.circular(35),right: Radius.circular(20)),
+                  borderRadius: const BorderRadius.horizontal(
+                      left: Radius.circular(35), right: Radius.circular(20)),
                   child: Image.asset(
                     item.image,
                     fit: BoxFit.cover,
