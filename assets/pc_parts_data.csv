@@ -1,0 +1,26 @@
+ID,Name,Type,Price,Spec,Brand,isEnable,Image
+CASE DARKFLASH DK431,CASE DARKFLASH DK431 WHITE,CASE,80,ATX Full Tower 4xFan RGB,Gaming parts,False,https://th.bing.com/th/id/OIP.Lyhp0OG4z1XbVFEdODO3YwHaHa?rs=1&pid=ImgDetMain
+CASE LIANLI 011 VISION,CASE LIANLI 011 VISION,CASE,100,ATX Full Tower 4xFan,Gaming parts,True,https://th.bing.com/th/id/OIP.FutUv1qTCBcCkmZXRsZonQHaIP?rs=1&pid=ImgDetMain
+CASE XIGMATEK VISION,CASE XIGMATEK VISION,CASE,120,ATX Full Tower 7xFan,Gaming parts,True,https://th.bing.com/th/id/OIP.7ZnTMLZ2tApqrUqPi0yUnwHaHa?rs=1&pid=ImgDetMain
+COOLER MSI C360,COOLER MSI C360,COOLER,100,360mm 3xFan,Gaming parts,True,https://th.bing.com/th/id/R.e3bf59486c03d189452c37e52d9f36a5?rik=uLvXNldQNC7HTQ&pid=ImgRaw&r=0
+CPU I5-13400F,CPU I5-13400F,CPU,130,6 cores 12 threads,Gaming parts,True,https://th.bing.com/th/id/OIP.aKMv_bnoKlMJ7Ha_R2v4KwHaJC?rs=1&pid=ImgDetMain
+CPU I9-14900K,CPU I9-14900K,CPU,450,24 cores 32 threads,Gaming parts,True,https://computercity.com/wp-content/uploads/51ZKpp9PV0L1.jpg
+CPU i7-12700K,CPU i7-12700K,CPU,200,"12th Genaration, 2.7GHz to 5GHz",Gaming parts,True,https://media.s-bol.com/mM94pP2BqDnR/G57AP87/1009x1200.jpg
+Cooler AG400,COOLER AG400,COOLER,20,Air Cooler 1xFan,Gaming parts,True,https://th.bing.com/th/id/OIP.4ZHQQD7HcdiC4y6JXwaZlQHaHa?rs=1&pid=ImgDetMain
+GPU RTX 4060,GPU RTX 4060,GPU,300,"8G GPU, DLSS3",Gaming parts,True,https://th.bing.com/th/id/OIP.RhjtVbKoWRIu1E7fYcvztAHaHa?rs=1&pid=ImgDetMain
+GPU RTX 4070 SUPER,GPU RTX 4070 SUPER,GPU,700,"12G DDR6, DLSS3",Gaming parts,True,https://th.bing.com/th?id=OIF.4pv1V1aNa58zCp%2by6Oaaeg&rs=1&pid=ImgDetMain
+GPU RTX 5090,GPU RTX 5090,GPU,5000,"32G DDR7, DLSS4",Gaming parts,True,https://www.esseeffe.com/ReadyPro/files/esseeffe_Files/Foto2/3045642_3.JPG
+HARD 256G NVME,HARD 256G NVME,HARD,30,"M.2 NVMe, 3500MB/s",Gaming parts,True,https://th.bing.com/th/id/OIP.-itaWZ0ZFOWRvsnW_QHNvwAAAA?rs=1&pid=ImgDetMain
+HARD 512G NVME,HARD 512G NVME,HARD,40,"M.2 NVMe, 3500MB/s",Gaming parts,True,https://th.bing.com/th/id/OIP.gEBImF8DgxDvjm8w2WmdJAHaHa?rs=1&pid=ImgDetMain
+Hard 1TB NVME,Hard 1TB NVME,HARD,50,"M.2 NVME, 3500MB/s",Gaming parts,True,https://th.bing.com/th/id/OIP.cf2FQIQadCsIF1rVQ1bTLgHaHa?rs=1&pid=ImgDetMain
+LENOVO IDEAPAD,LENOVO IDEAPAD,,600,"core i7-13 Ram 16G Hard 512G Screen 15.6"" Full HD",Lenovo,True,https://th.bing.com/th/id/OIP.C0GpsbNn_PdMVomQpBhsygHaHa?rs=1&pid=ImgDetMain
+MACBOOK PRO M4,MACBOOK PRO M4,,2000,"M4 Ram 8G Hard 256G Screen 14"" 4K",Apple,True,https://th.bing.com/th/id/OIP.C6_7Iv6Ento5iNepcxMgpAHaFj?rs=1&pid=ImgDetMain
+MOTHERBOARD B760,MOTHERBOARD B760,MB,100,"Gen 12th,13th and 14th Ready",Gaming parts,True,https://m.media-amazon.com/images/I/810xRriwz7L.jpg
+MOTHERBOARD H610,MOTHERBOARD H610,MB,80,"Gen 12th,13th and 14th Ready",Gaming parts,True,https://media.pangoly.com/img/1/5/4/4/15447d96-9049-4d74-95af-6a08305bfbf5.jpg
+MOTHERBOARD Z790,MOTHERBOARD Z790,MB,200,"Gen 12th,13th and 14th Ready",Gaming parts,True,https://th.bing.com/th/id/OIP.CQ2IOtoDkhV5EFC5L3wXdQHaFj?rs=1&pid=ImgDetMain
+MSI KATANA A13VE,MSI KATANA A13VE,,950,"Core i7-13700H Ram 16G Hard 512G GPU RTX 4070 8G Screen 17"" Full HD",MSI,True,https://th.bing.com/th/id/OIP.2de8m1m1W2uDwMb61eTQ5gHaF7?rs=1&pid=ImgDetMain
+PSU 1200,PSU 1200,PSU,300,Power effciency %90,Gaming parts,True,https://th.bing.com/th/id/OIP.VtujVK4QvT4W_2jy9WjhEgHaHa?rs=1&pid=ImgDetMain
+PSU 750W,PSU 750W,PSU,50,Power efficiency %90,Gaming parts,True,https://th.bing.com/th/id/OIP.E5HUuyd9e8OZ3286xYCqXQHaHa?rs=1&pid=ImgDetMain
+PSW 1000W,PSW 1000W,PSU,100,Power effciency %90,Gaming parts,True,https://th.bing.com/th/id/OIP.VtujVK4QvT4W_2jy9WjhEgHaHa?rs=1&pid=ImgDetMain
+RAM 16G DDR4,RAM 16G DDR4,RAM,40,3200MHz,Gaming parts,True,https://th.bing.com/th/id/OIP.koB_tJqPrkKBHB9X1TXbXwAAAA?rs=1&pid=ImgDetMain
+RAM 32G DDR4,RAM 32G DDR4,RAM,75,3600MHz,Gaming parts,True,https://th.bing.com/th/id/OIP.lPU9PabAywTZkuWddPyTZwAAAA?rs=1&pid=ImgDetMain
